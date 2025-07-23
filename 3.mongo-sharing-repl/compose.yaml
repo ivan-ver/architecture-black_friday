@@ -10,12 +10,11 @@ services:
     environment:
       MONGODB_URL: "mongodb://mongos-router:27020"
       MONGODB_DATABASE_NAME: "somedb"
-      REDIS_URL: "redis://redis:6379"
     networks:
       - app-network
 
   config-srv:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: config-srv
     restart: always
     ports:
@@ -35,7 +34,7 @@ services:
       ]
 
   mongos-router:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: mongos-router
     restart: always
     ports:
@@ -54,7 +53,7 @@ services:
 
   # Шард 1 с репликами
   shard-1-primary:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-1-primary
     restart: always
     ports:
@@ -74,7 +73,7 @@ services:
       ]
 
   shard-1-replica-1:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-1-replica-1
     restart: always
     ports:
@@ -96,7 +95,7 @@ services:
       - shard-1-primary
 
   shard-1-replica-2:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-1-replica-2
     restart: always
     ports:
@@ -119,7 +118,7 @@ services:
 
   # Шард 2 с репликами
   shard-2-primary:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-2-primary
     restart: always
     ports:
@@ -139,7 +138,7 @@ services:
       ]
 
   shard-2-replica-1:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-2-replica-1
     restart: always
     ports:
@@ -161,7 +160,7 @@ services:
       - shard-2-primary
 
   shard-2-replica-2:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-2-replica-2
     restart: always
     ports:
@@ -181,17 +180,6 @@ services:
       ]
     depends_on:
       - shard-2-primary
-
-  redis:
-    image: redis:latest
-    restart: always
-    container_name: redis
-    ports:
-      - "6379:6379"
-    environment:
-      - REDIS_PORT=6379
-    networks:
-      - app-network
 
 networks:
   app-network:
