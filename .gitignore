@@ -1,1 +1,4 @@
 venv
+/config-data/
+/shard-1-data/
+/shard-2-data/
