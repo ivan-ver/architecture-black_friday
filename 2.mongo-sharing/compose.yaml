@@ -14,7 +14,7 @@ services:
       - app-network
 
   config-srv:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: config-srv
     restart: always
     ports:
@@ -34,7 +34,7 @@ services:
       ]
 
   mongos-router:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: mongos-router
     restart: always
     ports:
@@ -52,7 +52,7 @@ services:
       ]
 
   shard-1:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-1
     restart: always
     ports:
@@ -72,7 +72,7 @@ services:
       ]
 
   shard-2:
-    image: dh-mirror.gitverse.ru/mongo:latest
+    image: kazhem/pymongo_api:1.0.0
     container_name: shard-2
     restart: always
     ports:
