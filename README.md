@@ -37,17 +37,17 @@ curl --silent http://ifconfig.me
 # Решение:
 ## Задание 1
 
-[схема вар-1](schemas%2Ftask-1%2Fschema_v1.drawio)
+[схема вар-1.drawio](schemas%2Fschema_v1.drawio)
 
-![schema_v1.png](schemas%2Ftask-1%2Fimg%2Fschema_v1.png)
+![schema_v1.png](schemas%2Fimg%2Fschema_v1.png)
 
-[схема вар-2](schemas%2Ftask-1%2Fschema_v2.drawio)
+[схема вар-2.drawio](schemas%2Fschema_v2.drawio)
 
-![schema_v2.png](schemas%2Ftask-1%2Fimg%2Fschema_v2.png)
+![schema_v2.png](schemas%2Fimg%2Fschema_v2.png)
 
-[схема вар-3](schemas%2Ftask-1%2Fschema_v3.drawio)
+[схема вар-3.drawio](schemas%2Fschema_v3.drawio)
 
-![schema_v3.png](schemas%2Ftask-1%2Fimg%2Fschema_v3.png)
+![schema_v3.png](schemas%2Fimg%2Fschema_v3.png)
 
 
 ## Задание 2
@@ -464,3 +464,15 @@ docker-compose -f sharding-repl-cache.yaml up pymongo_api -d
 фиг. 9 - результат второго запроса
 
 Время запроса/ответа составило **8 мс**
+
+## Задание 4
+
+[схема вар.4.drawio](schemas%2Fschema_v4.drawio)
+
+![schema_v4.png](schemas%2Fimg%2Fschema_v4.png)
+
+## Задание 5
+
+[[схема вар.5.drawio](schemas%2Fschema_v5.drawio)
+
+![schema_v5.png](schemas%2Fimg%2Fschema_v5.png)
