@@ -2,3 +2,9 @@ venv
 /config-data/
 /shard-1-data/
 /shard-2-data/
+/shard-1-primary-data/
+/shard-1-replica-1-data/
+/shard-1-replica-2-data/
+/shard-2-primary-data/
+/shard-2-replica-1-data/
+/shard-2-replica-2-data/
