@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
-    <mxGraphModel dx="1348" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="930" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxRectangle x="110" y="200" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zA23MoTUsTF4_91t8viU-2" value="primamary&lt;br&gt;1-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="M3Q7F0y20DK5DFM-mO5N-11" vertex="1">
+        <mxCell id="zA23MoTUsTF4_91t8viU-2" value="primamary" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="M3Q7F0y20DK5DFM-mO5N-11" vertex="1">
           <mxGeometry x="20" y="40" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M3Q7F0y20DK5DFM-mO5N-16" value="shard-2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
@@ -23,7 +23,7 @@
             <mxRectangle x="110" y="200" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M3Q7F0y20DK5DFM-mO5N-17" value="primamary&lt;br&gt;2-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="M3Q7F0y20DK5DFM-mO5N-16" vertex="1">
+        <mxCell id="M3Q7F0y20DK5DFM-mO5N-17" value="primamary" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" parent="M3Q7F0y20DK5DFM-mO5N-16" vertex="1">
           <mxGeometry x="20" y="40" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M3Q7F0y20DK5DFM-mO5N-20" value="mongos-router" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
