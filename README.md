@@ -1,35 +1,26 @@
-# pymongo-api
+# Задание 1
 
-## Как запустить
+[схема вар-1.drawio](schemas%2Fschema_v1.drawio)
 
-Запускаем mongodb и приложение
+![schema_v1.png](schemas%2Fimg%2Fschema_v1.png)
 
-```shell
-docker compose up -d
-```
+[схема вар-2.drawio](schemas%2Fschema_v2.drawio)
 
-Заполняем mongodb данными
+![schema_v2.png](schemas%2Fimg%2Fschema_v2.png)
 
-```shell
-./scripts/mongo-init.sh
-```
+[схема вар-3.drawio](schemas%2Fschema_v3.drawio)
 
-## Как проверить
+![schema_v3.png](schemas%2Fimg%2Fschema_v3.png)
 
-### Если вы запускаете проект на локальной машине
 
-Откройте в браузере http://localhost:8080
+## Задание 5
 
-### Если вы запускаете проект на предоставленной виртуальной машине
+[схема вар.4.drawio](schemas%2Fschema_v4.drawio)
 
-Узнать белый ip виртуальной машины
+![schema_v4.png](schemas%2Fimg%2Fschema_v4.png)
 
-```shell
-curl --silent http://ifconfig.me
-```
+## Задание 6
 
-Откройте в браузере http://<ip виртуальной машины>:8080
+[[схема вар.5.drawio](schemas%2Fschema_v5.drawio)
 
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+![schema_v5.png](schemas%2Fimg%2Fschema_v5.png)
