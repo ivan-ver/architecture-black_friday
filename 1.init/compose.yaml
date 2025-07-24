@@ -1,7 +1,7 @@
 services:
   mongodb1:
     container_name: mongodb1
-    image: kazhem/pymongo_api:1.0.0
+    image: dh-mirror.gitverse.ru/mongo:latest
     volumes:
       - mongodb1_data_container:/data/db
 

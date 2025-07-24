@@ -1,1 +1,8 @@
 venv
+/4.sharding-repl-cache/shard-1-primary-data/
+/4.sharding-repl-cache/shard-1-replica-1-data/
+/4.sharding-repl-cache/shard-1-replica-2-data/
+/4.sharding-repl-cache/shard-2-primary-data/
+/4.sharding-repl-cache/shard-2-replica-1-data/
+/4.sharding-repl-cache/shard-2-replica-2-data/
+/4.sharding-repl-cache/config-data/
